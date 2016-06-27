@@ -4,13 +4,13 @@ import time
 import schedule
 import datetime
 from selenium import webdriver
-#from pyvirtualdisplay impot Display
+from pyvirtualdisplay impot Display
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 
-#display = Display(visible = 0, size = (800, 600))
-#display.start()
+display = Display(visible = 0, size = (800, 600))
+display.start()
 
 class deviceType:
     def __init__(self):
@@ -97,8 +97,8 @@ def main():
 
         payload = {
         'URL' : 'https://kbits-usw.labcollab.net/login?next_url=%2F',
-        'USERNAME' : 'narenc',
-        'PASSWORD' : 'Adidas723!',
+        'USERNAME' : '*****', # User
+        'PASSWORD' : '*****', # Pass
         'osText' : 'FireOS5',
         'shipText' : 'Ship_5210',
         'deviceText1B' : 'bueller_ship_5210',
